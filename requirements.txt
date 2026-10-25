@@ -1,0 +1,8 @@
+# Python 3.11 or 3.12 recommended. Install CUDA-enabled torch separately if needed.
+ultralytics>=8.4.0,<9
+opencv-python>=4.10,<5
+numpy>=1.26,<3
+scipy>=1.11,<2
+Pillow>=10,<13
+reportlab>=4,<5
+lap>=0.5.12

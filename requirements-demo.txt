@@ -1,0 +1,5 @@
+# UI + synthetic demo only. No PyTorch, OpenCV, model download, or GPU needed.
+numpy>=1.26,<3
+scipy>=1.11,<2
+Pillow>=10,<13
+reportlab>=4,<5

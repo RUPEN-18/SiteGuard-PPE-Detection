@@ -1,0 +1,51 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Models, datasets, training output
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.cache
+datasets/
+models/
+weights/
+runs/
+
+# Private runtime records, credentials and generated media
+.env
+.env.*
+!.env.example
+.siteguard_settings.json
+records/
+reports/
+evidence/
+output/
+outputs/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+*.log
+*.dmp
+annotated.jpg
+annotated.mp4
+frame_timestamps.csv
+
+# Build and editor output
+build/
+dist/
+*.spec
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.inspect.ndjson

@@ -1,0 +1,7 @@
+{
+  "person": 0,
+  "helmet": 1,
+  "no_helmet": 2,
+  "vest": 3,
+  "no_vest": 4
+}
